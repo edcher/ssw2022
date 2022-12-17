@@ -1,0 +1,56 @@
+html {
+  background-color: #FCE6C2;
+  text-align: center;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+  border-style: solid;
+  border-width: thin;
+}
+
+input:hover {
+	cursor: text;
+  background-color:#F7F6F5;
+}
+
+#centrato {
+  position: absolute;
+	width: 50%;
+	left: 25%;
+}
+
+.bottone {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 30px;
+  border-width: thin;
+  background-color: #66010F;
+}
+
+.bottone:hover {
+  background-color: white;
+  color: #66010F;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+
+.posto {
+  font-size: 15px;
+  padding: 5px 5px;
+  border-radius: 30px;
+  border-width: thin;
+}
+
+.posto:hover {
+  cursor: pointer;
+  color: #FABD5A;
+}
+
+p {
+  font-size: 20px;
+}
